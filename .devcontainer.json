@@ -3,11 +3,11 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "usernamehw.errorlens",
-                "ms-vscode.cpptools",
-                "cschlosser.doxdocgen",
+                // "usernamehw.errorlens",
+                // "ms-vscode.cpptools",
+                // "cschlosser.doxdocgen",
                 "vsls-contrib.gitdoc",
-                "davidkaiser.kaiser-project-zip"
+                // "davidkaiser.kaiser-project-zip"
             ]
         }
     },
