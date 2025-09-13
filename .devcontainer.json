@@ -4,11 +4,14 @@
         "vscode": {
             "extensions": [
                 "usernamehw.errorlens",
-                "vsls-contrib.gitdoc",
                 "ms-vscode.cpptools",
                 "cschlosser.doxdocgen",
+                "vsls-contrib.gitdoc",
                 "davidkaiser.kaiser-project-zip"
             ]
         }
+    },
+    "build": {
+        "dockerfile": "Dockerfile"
     }
 }
