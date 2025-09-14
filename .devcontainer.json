@@ -9,6 +9,11 @@
                 // "ms-vscode.cpptools",  // loading this here stops gitdoc from initializing correctly
                 "davidkaiser.kaiser-project-zip",
             ]
+        },
+        "codespaces": {
+            "openFiles": [
+                "main.cpp",
+            ]
         }
     },
     "build": {
