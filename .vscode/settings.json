@@ -11,6 +11,6 @@
     "editor.formatOnSave": true,
     "debug.onTaskErrors": "showErrors",
     "extensions.ignoreRecommendations": true,
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
     "chat.disableAIFeatures": true,
-    "C_Cpp.default.cppStandard": "c++20",
 }
