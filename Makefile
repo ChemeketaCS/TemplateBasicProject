@@ -1,3 +1,11 @@
+# force macs to use g++-15 to avoid clang mapped to g++
+OS_NAME := $(shell uname -s)
+ifeq ($(OS_NAME),Darwin)
+	CXX = g++-15
+else
+	CXX = g++
+endif
+
 # compiler options
 CXXFLAGS = -g -Wall -Wextra
 CXXFLAGS += -std=c++20 -fmodules-ts -pedantic -pedantic-errors
