@@ -13,4 +13,5 @@
     "extensions.ignoreRecommendations": true,
     "workbench.remoteIndicator.showExtensionRecommendations": false,
     "chat.disableAIFeatures": true,
+    "C_Cpp.debugShortcut": false
 }
