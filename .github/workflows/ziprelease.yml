@@ -6,13 +6,13 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - run: |
+        rm -rf .git
+        rm -rf .github
         git config --global user.email "noone@chemeketa.edu"
         git config --global user.name "ChemeketaCS"
         git init
         git add -A
         git commit -m "Initial template project"
-        rm -rf .git
-        rm -rf .github
     - name: Archive Release
       uses: thedoctor0/zip-release@0.7.5
       with:
